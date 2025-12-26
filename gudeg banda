@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gudeg Banda - Sejak 1976</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <div class="logo">Gudeg Banda</div>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" aria-label="Hero Section">
+    <h1>Gudeg Banda – Sejak 1976</h1>
+    <p>Cita rasa gudeg legendaris yang tetap terjaga hingga kini</p>
+    <button class="btn" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">
+      Lihat Menu
+    </button>
+  </section>
+
+  <!-- Tentang Kami Section -->
+  <section id="tentang" aria-label="Tentang Kami Section">
+    <h2 class="section-title">Tentang Kami</h2>
+    <p class="section-text">
+      Gudeg Banda didirikan sejak tahun 1976 dengan dedikasi menjaga cita rasa asli gudeg tradisional Indonesia.
+    </p>
+    <p class="value-list">
+      Kami menonjolkan nilai tradisi yang kental dan kualitas rasa yang selalu konsisten dalam setiap sajian. Setiap makanan dibuat dengan penuh cinta dan bahan terbaik pilihan.
+    </p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" aria-label="Menu Section">
+    <h2 class="section-title">Menu Kami</h2>
+    <div class="card-container">
+      <div class="card">Gudeg</div>
+      <div class="card">Ayam</div>
+      <div class="card">Telur</div>
+      <div class="card">Tahu &amp; Tempe</div>
+      <div class="card">Krecek</div>
+    </div>
+  </section>
+
+  <!-- Galeri Section -->
+  <section id="galeri" aria-label="Galeri Makanan">
+    <h2 class="section-title">Galeri</h2>
+    <div class="gallery-grid">
+      <!-- Placeholder images dari picsum.photos -->
+      <img src="https://picsum.photos/seed/gudeg1/400/300" alt="Foto Gudeg 1" />
+      <img src="https://picsum.photos/seed/gudeg2/400/300" alt="Foto Gudeg 2" />
+      <img src="https://picsum.photos/seed/gudeg3/400/300" alt="Foto Gudeg 3" />
+      <img src="https://picsum.photos/seed/gudeg4/400/300" alt="Foto Gudeg 4" />
+      <img src="https://picsum.photos/seed/gudeg5/400/300" alt="Foto Gudeg 5" />
+      <img src="https://picsum.photos/seed/gudeg6/400/300" alt="Foto Gudeg 6" />
+    </div>
+  </section>
+
+  <!-- Lokasi & Kontak Section -->
+  <section id="kontak" aria-label="Lokasi dan Kontak">
+    <h2 class="section-title">Lokasi & Kontak</h2>
+    <p><span class="label">Alamat:</span>Jalan Lombok No.57, Bandung</p>
+    <p><span class="label">Telepon:</span>022-4204933 / 4262444</p>
+    <p><span class="label">WhatsApp:</span>0811-2224-933</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2024 Gudeg Banda &mdash; Sejak 1976
+  </footer>
+</body>
+</html>
